@@ -1,9 +1,7 @@
 
 import { useRef, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
-
-
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
+import { faTrash } from "@fontawesome/free-solid-svg-icons";
 
 const Home = () => {
 	const [inputValue, setInputValue] = useState("");
